@@ -8,12 +8,13 @@ public class NameOverloading {
         fName ("Diana", "Spencer"); // passing 2 arguments
     }
     // methods to pass on first name
-    static void fName() {
+    public static void fName() {
         System.out.println("Your name is Ada Lovelace");
-    }    static void fName(String firstName) { // passing fname  parameter
+    }
+    public static void fName(String firstName) { // passing fname  parameter
         System.out.println(firstName + " Smith");
     }
-        static void fName (String firstName, String lastName) {
+    public static void fName (String firstName, String lastName) {
         System.out.println(firstName + " " + lastName);
     }
 }
