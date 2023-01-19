@@ -6,7 +6,7 @@ public class FibonacciCalc {
 
     public static void Fibonacci() {
         // first two numbers of Fibonacci sequence
-        int n1 = 0, n2 = 1, n3, i, count = 50;
+        long n1 = 0, n2 = 1, n3, i, count = 50;
 
         // printing the first two numbers
         System.out.print(n1 + " " + n2);
